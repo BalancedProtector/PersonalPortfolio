@@ -1,0 +1,110 @@
+.about-me {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Title */
+.about-me h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Subtitles */
+.about-me h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Paragraphs */
+.about-me p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* List */
+.about-me ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-me ul li {
+    background: #e9ecef; /* Slightly deeper grey */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Skill categories */
+.hard-skill-list {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.coding-skills li {
+    background-color: #8cafdd; /* Deeper light blue */
+    text-align: center;
+}
+
+.wireframing-skills li {
+    background-color: #cff4fc; /* Light blue */
+}
+
+.welding-skills li {
+    background-color: #a9a9a9; /* Slightly darker grey */
+}
+.soft-skill-list {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.soft-skill-list li {
+    background-color: #fff3cd; /* Light yellow */
+    text-align: center;
+}
+
+/* Nested lists */
+.about-me ul ul {
+    margin-left: 20px;
+}
+
+.about-me ul ul li {
+    background: #f1f3f5; /* Light grey */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .about-me {
+        padding: 15px;
+    }
+    .about-me h1 {
+        font-size: 1.5em;
+    }
+    .about-me h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me {
+        padding: 10px;
+    }
+    .about-me h1 {
+        font-size: 1.2em;
+    }
+    .about-me h2 {
+        font-size: 1em;
+    }
+}

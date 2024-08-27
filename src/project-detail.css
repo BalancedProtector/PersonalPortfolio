@@ -1,0 +1,47 @@
+/* Add some basic styling to the project-detail view */
+.project-detail {
+    max-width: 800px; /* Limit the width of the text container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the content */
+    line-height: 1.6; /* Improve readability by increasing line height */
+    font-family: 'Raleway', sans-serif; /* Ensure consistent font usage */
+}
+
+/* Style the headings */
+.project-detail h1,
+.project-detail h2,
+.project-detail h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300; /* Use a lighter font weight for headings */
+}
+
+/* Style paragraphs */
+.project-detail p {
+    margin-bottom: 20px;
+}
+
+/* Style images */
+.project-detail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Add margin around images */
+}
+
+/* Style lists */
+.project-detail ul,
+.project-detail ol {
+    margin: 20px 0;
+    padding-left: 20px; /* Add padding to the left for list items */
+}
+
+/* Style links */
+.project-detail a {
+    color: #007bff; /* Use a blue color for links */
+    text-decoration: none;
+}
+
+.project-detail a:hover {
+    text-decoration: underline;
+}

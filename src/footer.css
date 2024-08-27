@@ -1,0 +1,15 @@
+/* Remove space between MainContent and Footer */
+.pg-footer {
+    margin-top: 0; /* Ensure no margin at the top */
+    padding-top: 0; /* Ensure no padding at the top */
+}
+
+/* Add space between social media icons */
+.footer-links a {
+    margin-right: 10px; /* Adjust the value as needed */
+    padding-bottom: 50px; /* Add padding to the bottom */
+}
+
+.footer-links a:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+}
