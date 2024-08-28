@@ -5,19 +5,42 @@
     justify-content: center;
     margin-top: 20px;
     padding: 20px; /* Add padding to create space around the content */
+    background-color: #f8f9fa;
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 1000px; /* Limit the width of the text container */
     margin: 20px auto; /* Center the container horizontally */
 }
+
 .portfolio h2 {
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 1.5em;
     text-align: center;
 }
+
 .divider {
     width: 85%;
     border: 0;
     border-top: 2px solid #ccc;
     margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        padding: 15px;
+    }
+    .portfolio h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio {
+        padding: 10px;
+    }
+    .portfolio h2 {
+        font-size: 1em;
+    }
 }

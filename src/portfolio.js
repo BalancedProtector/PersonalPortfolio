@@ -5,9 +5,9 @@ import AllProjects from './all-projects.js';
 const Portfolio = () => {
     return (
         <div className="portfolio">
-            <h1>This is what im all about</h1>
-            <h4>Here is where I'll give more details about each project</h4>
-            <h5>And how it can benefit your company or project</h5>
+            <h1>This is what I'm all about</h1>
+            <h3>Here is where I'll give more details about each project</h3>
+            <h4>And how it can benefit your company or project</h4>
             <p>
                 This page was one of the first projects that I worked on, and I'm proud to say that
                 I've implemented many new features and changes to the original design. You can take
@@ -39,7 +39,7 @@ const Portfolio = () => {
                 lead me.
             </p>
             <hr className="divider" />
-            <h2>Public projects I've worked on</h2>
+            <h2>These are the public projects I've worked on and completed</h2>
             <AllProjects />
         </div>
     );

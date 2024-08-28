@@ -77,7 +77,7 @@ const AboutMe = () => {
                 effective problem-solving strategies. My brief time in the customer service
                 industry taught me to communicate in an effective manner for everyone to
                 understand. Though it may take a couple of iterations to achieve the desired
-                language, my goal is to make sure everyone is on the same page.
+                language or vocabulary, my goal is to make sure everyone is on the same page.
             </p>
             <p>
                 I'm always looking to learn more skills and improve my current ones. So if there's a certain tech
@@ -86,7 +86,7 @@ const AboutMe = () => {
             </p>
             <p>
                 I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is
-                assisting in the re-development of my resume, linkedin profile, and portfolio.
+                currently assisting in the re-development of my resume, linkedin profile, and portfolio.
             </p>
             <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
         </div>
