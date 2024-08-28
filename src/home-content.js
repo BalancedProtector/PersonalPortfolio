@@ -9,18 +9,24 @@ const HomeContent = () => {
                 <Col>
                     <img
                         src="CelticYin&Yang.svg"
-                        className="Personal-Logo "
+                        className="Personal-Logo"
                         alt="A Yin and Yang in a Celtic Knotwork design"
                         height="200"
                     />
                     <h1>Hello and Welcome to</h1>
-                    <h3>Steven Martins Portfolio</h3>
+                    <h3>Steven Martin's Portfolio</h3>
                     <p>
-                        I'll keep most of the information brief so you won't
-                        need to read more than necessary. I'm a web developer
-                        from Ohio, USA. Mainly NE Ohio, I am ready to work locally,
+                        I'm a web developer from Ohio, USA. Mainly NE Ohio, I am ready to work locally,
                         remote (home-based or locally hybrid), or relocate for the
                         right opportunity.
+                    </p>
+                    <p>
+                        Hi, I'm a Full Stack Web Developer passionate about technology. Over the past
+                        several years I’ve been building sites for colleagues, friends, and family. Designed using a
+                        variety of coding languages, frameworks and libraries. With my background in automotive
+                        engineering, as well as mechanical and hands-on trades, I'm excited to pursue a career as a
+                        developer in the mechanical / robotics industry, combining my expertise with professional
+                        aspirations.
                     </p>
                     <p>
                         You can find the navigation bar up top which
