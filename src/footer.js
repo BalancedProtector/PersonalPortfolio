@@ -8,7 +8,7 @@ const Footer = () => {
             <Container>
                 <Row className="text-center">
                     <Col>
-                        <p>Find me on: </p>
+                        <p>Find me on:</p>
                         <div className="footer-links">
                             <a href="https://github.com/BalancedProtector" target="_blank" rel="noopener noreferrer">
                                 <img className="social-media" src="/GitHub.svg" alt="GitHub" height="32" />

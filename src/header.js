@@ -7,6 +7,7 @@ const Header = () => {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
     useEffect(() => {
         const handleScroll = () => {
             const logoElement = document.querySelector('.navbar-brand');
@@ -27,6 +28,7 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
     useEffect(() => {
         const dropdown = document.querySelector('.dropdown');
         const dropdownMenu = document.querySelector('.dropdown-menu');
@@ -46,7 +48,8 @@ const Header = () => {
             dropdownMenu.addEventListener('mouseenter', handleMouseEnter);
             dropdownMenu.addEventListener('mouseleave', handleMouseLeave);
         }
-    })
+    });
+
     return (
         <header className="custom-navbar">
             <div className="navbar-brand">
@@ -63,15 +66,15 @@ const Header = () => {
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li className="dropdown">
-                        <a href="/portfolio" className="dropdown-toggle">Portfolio</a>
+                        <a href="/projects/all" className="dropdown-toggle">Projects</a>
                         <ul className="dropdown-menu">
-                            <li><a href="/portfolio/project1">Porfolio Site</a></li>
-                            <li><a href="/portfolio/project2">To-Do-List JS App</a></li>
-                            <li><a href="/portfolio/project3">Basic Pokedex</a></li>
-                            <li><a href="/portfolio/project4">MindTheatre Backend</a></li>
-                            <li><a href="/portfolio/project5">MindTheatre Frontend</a></li>
+                            <li><a href="/projects/project1">Porfolio Site</a></li>
+                            <li><a href="/projects/project2">To-Do-List JS App</a></li>
+                            <li><a href="/projects/project3">Basic Pokedex</a></li>
+                            <li><a href="/projects/project4">MindTheatre Backend</a></li>
+                            <li><a href="/projects/project5">MindTheatre Frontend</a></li>
                             <li className="divider"></li>
-                            <li><a href="/portfolio/all">All Projects</a></li>
+                            <li><a href="/projects/portfolio">Portfolio</a></li>
                         </ul>
                     </li>
                     <li><a href="/contact">Contact</a></li>

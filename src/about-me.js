@@ -4,8 +4,8 @@ import './about-me.css';
 const AboutMe = () => {
     return (
         <div className="about-me">
-            <h1>If you want to learn more about me as a person</h1>
-            <h4>We can start with a list of my skills</h4>
+            <h1>Learn more about me</h1>
+            <h4>We can start with a list of my skills, I'm really quite a Jack of all Trades</h4>
             <ul className="skills-list">
                 <li>Hard Skills:</li>
                 <ul className="hard-skill-list">
@@ -21,15 +21,16 @@ const AboutMe = () => {
                         <li>Bootstrap</li>
                         <li>GitHub</li>
                         <li>Git</li>
+                        <li>WireFraming</li>
+                        <ul className="wireframing-skills">
+                            <li>Client Communication</li>
+                            <li>Physical Drawing</li>
+                            <li>Prototyping</li>
+                        </ul>
+                        <li>Aglie Enviornment</li>
+                        <li>Scrum Enviornment</li>
                     </ul>
-                    <li>WireFraming</li>
-                    <ul className="wireframing-skills">
-                        <li>Client Communication</li>
-                        <li>Physical Drawing</li>
-                        <li>Prototyping</li>
-                    </ul>
-                    <li>Aglie Enviornment</li>
-                    <li>Scrum Enviornment</li>
+
                     <li>Mig Welding</li>
                     <ul className="welding-skills">
                         <li>Steel</li>
@@ -39,31 +40,55 @@ const AboutMe = () => {
                             <li>Pipes</li>
                         </ul>
                         <li>Aluminum</li>
+                        <ul>
+                            <li>Plates</li>
+                            <li>Angled Plates</li>
+                        </ul>
                         <li>Stainless Steel</li>
                     </ul>
                     <li>Vehicle Maintenance</li>
                     <li>Vehicle Repair</li>
                     <li>Cooking</li>
+                    <ul className="cooking-skills">
+                        <li>Prepping</li>
+                        <li>Trimming Meat</li>
+                        <li>Fileting Meat</li>
+                        <li>Knifework</li>
+                        <li>Marinating</li>
+                        <li>Grilling</li>
+                        <li>Frying</li>
+                        <li>Deep Frying</li>
+                        <li>Sauces</li>
+                        <li>Stocks + Broths</li>
+                        <li>Spice Blends</li>
+                        <li>Cooking to Order</li>
+                        <li>Plating</li>
+                    </ul>
                     <li>Researching</li>
                     <li>Writing</li>
                     <li>Reading</li>
                 </ul>
                 <li>Soft Skills:</li>
                 <ul className="soft-skill-list">
-                    <li>Communication</li>
-                    <li>Organization</li>
-                    <li>Critical Thinking</li>
-                    <li>Creative Problem Solving</li>
-                    <li>Dependability</li>
-                    <li>Empathy</li>
-                    <li>Project Managment</li>
+                    <li>Adaptability</li>
                     <li>Attention to Detail</li>
+                    <li>Communication</li>
+                    <li>Creative Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Delegation</li>
+                    <li>Dependability</li>
+                    <li>Determination</li>
+                    <li>Empathy</li>
+                    <li>Organization</li>
+                    <li>Project Management</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
                 </ul>
             </ul>
             <h4>Now let's get into my background</h4>
             <p>
                 I am a career changer from North East Ohio, USA. I am eager to establish myself
-                in the web development industry through working locally, hybrid or fully remote.
+                in the web development industry through working locally, hybrid, or fully remote.
                 I am willing to relocate for the right opportunity.
             </p>
             <p>
@@ -86,7 +111,7 @@ const AboutMe = () => {
             </p>
             <p>
                 I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is
-                currently assisting in the re-development of my resume, linkedin profile, and portfolio.
+                currently assisting in the re-development of my resume, LinkedIn profile, and portfolio.
             </p>
             <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
         </div>

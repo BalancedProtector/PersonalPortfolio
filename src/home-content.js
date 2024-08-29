@@ -16,28 +16,32 @@ const HomeContent = () => {
                     <h1>Hello and Welcome to</h1>
                     <h3>Steven Martin's Portfolio</h3>
                     <p>
-                        I'm a web developer from Ohio, USA. Mainly NE Ohio, I am ready to work locally,
-                        remote (home-based or locally hybrid), or relocate for the
-                        right opportunity.
-                    </p>
-                    <p>
                         Hi, I'm a Full Stack Web Developer passionate about technology. Over the past
-                        several years I’ve been building sites for colleagues, friends, and family. Designed using a
+                        several years I've been building sites and apps for colleagues, friends, and family. Designed using a
                         variety of coding languages, frameworks and libraries. With my background in automotive
                         engineering, as well as mechanical and hands-on trades, I'm excited to pursue a career as a
                         developer in the mechanical / robotics industry, combining my expertise with professional
                         aspirations.
                     </p>
+
                     <p>
-                        You can find the navigation bar up top which
-                        will lead you to the different sections of my portfolio. And in
-                        staying always upfront, some sections may have more details than
-                        others, depending how you navigate the page. You'll notice that
-                        the "Portfolio" section is a dropdown, but also a link to a more
-                        detailed page. Selecting an individual project will take you to view
-                        it's information and available links, and All Projects will only show
-                        the projects and not the more detailed portfolio section. Both will
-                        showcase all of my projects and link to their respective pages.
+                        I am from North East Ohio, USA. I am ready to work locally,
+                        remote (home-based or locally hybrid), or relocate for the
+                        right opportunity. I am open to full-time, part-time or
+                        contract work. As well as internships or apprenticeships
+                        should I need to learn more about a specific technology or
+                        system already in place.
+                    </p>
+
+                    <h3>Exploring the Page</h3>
+                    <p>
+                        Please feel free to explore the site and learn more about me, my projects, and how you can
+                        contact me. At the top of the page is a collapsible navigation bar with various sections. Clicking
+                        "About Me" will give an organized list of skills and technologies I'm familiar with, as well as an overview of my
+                        background and a little about me as a person. Clicking on "Projects" will take you to view all of my
+                        projects in one place. Instead of clicking, try hovering to view a dropdown menu list of all my projects.
+                        At the bottom of this dropdown is "Portfolio" which will still show you all of my projects in one place,
+                        but also give more details at the top about most of the projects currently on display.
                     </p>
 
                 </Col>

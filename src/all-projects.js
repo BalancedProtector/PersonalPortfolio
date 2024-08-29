@@ -10,8 +10,8 @@ const projects = [
         has completed two revisions, with the first being no longer deployed, 
         though you can still see the code on GitHub under a similar name to this 
         project though, don't get them confused.`,
-        activeLink: 'NOT LIVE YET UPDATE LATER',
-        githubLink: 'Not poublished yet'
+        activeLink: 'https://stevemartin.vercel.app',
+        githubLink: 'https://github.com/BalancedProtector/PersonalPortfolio'
     },
     {
         id: 'project2',
@@ -42,10 +42,10 @@ const projects = [
         id: 'project4',
         title: 'MindTheatre Database or Backend',
         description: `MindTheatre is the name of the full site developed to showcase the largest
-        project I've completed to date. This API was built using Node, Express, Heroku, MongoDB 
-        and MongoDB Atlas. Written primarily in JavaScript with a few pages of HTML and CSS. 
-        This API is secured by bcrypt, OAuth, and Passport. The API is already hosted on Heroku 
-        actively so the next and most important peoject is constantly up and running.`,
+        project I've completed to date. This API was built using Node, Express, Heroku, MongoDB, 
+        and MongoDB Atlas. Written primarily in JavaScript with a few pages of HTML and CSS, 
+        this API is secured by bcrypt, OAuth, and Passport. The API is already hosted on Heroku 
+        actively, so the next and most important project is constantly up and running.`,
         activeLink: 'https://mind-theatre-api-dc69e2dcb161.herokuapp.com/',
         githubLink: 'https://GitHub.com/BalancedProtector/Movie_API'
     },
@@ -55,9 +55,9 @@ const projects = [
         description: `MindTheatre is a web application designed to offer users an immersive 
         experience in exploring and engaging with a curated collection of movies. 
         Built with React and styled with SCSS, it provides a sleek, responsive interface 
-        for movie enthusiasts. The app designed to be user-friendly and intuitive. You can 
-        run the app in a live test server after cloning the app from GitHub and it'll 
-        automatically connect to the API`,
+        for movie enthusiasts. The app is designed to be user-friendly and intuitive. You can 
+        run the app in a live test server after cloning the app from GitHub, and it'll 
+        automatically connect to the API.`,
         githubLink: 'https://github.com/BalancedProtector/MindTheatre-Client'
     }
 
@@ -69,7 +69,7 @@ const AllProjects = () => {
                 <div key={project.id} className="project">
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
-                    <Link to={`/portfolio/${project.id}`}>View Details and Links</Link>
+                    <Link to={`/projects/${project.id}`}>View Details and Links</Link>
                 </div>
             ))}
         </div>
