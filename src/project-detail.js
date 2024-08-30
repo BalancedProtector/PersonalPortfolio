@@ -19,13 +19,18 @@ const ProjectDetail = () => {
                         Live Link
                     </a>
                 ) : (
-                    'Live site link is not available'
+                    'This project is not a website nor is it hosted online'
                 )}
             </p>
             <p>
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    GitHub Repository
-                </a>
+                {project.githubLink ? (
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                        GitHub Repository
+                    </a>
+                ) : (
+                    'This project is not or no longer available on GitHub'
+                )}
+
             </p>
         </div>
     );

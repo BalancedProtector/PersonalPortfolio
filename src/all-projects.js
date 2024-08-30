@@ -7,9 +7,15 @@ const projects = [
         title: 'Portfolio Site',
         description: `The site I use to showcase my history, abilities, and completed 
         projects to friends, family, and potential employers or clients. This project 
-        has completed two revisions, with the first being no longer deployed, 
-        though you can still see the code on GitHub under a similar name to this 
-        project though, don't get them confused.`,
+        has completed three revisions, the first being simple HTML and CSS and is no 
+        longer deployed, the second being the prototype for the current and third version
+        which you are currently viewing. The third version is a React app mainly utilizing 
+        Javascript and HTML, styled with CSS. This version focused on implementing new 
+        technologies and features learned while building other projects. This site is hosted 
+        on Vercel and is actively monitored and updated with my currently public projects. 
+        Privacy is always at the forefront of my mind, so I've made sure to keep unfinished 
+        or personal projects private until they are ready to be shared or purchased. 
+        To me this site is a living resume, showcasing my abilities, projects, and skills.`,
         activeLink: 'https://stevemartin.vercel.app',
         githubLink: 'https://github.com/BalancedProtector/PersonalPortfolio'
     },
@@ -17,7 +23,7 @@ const projects = [
         id: 'project2',
         title: 'To Do List App',
         description: `Very simple To Do List App created using HTML, JS, and CSS. The App
-        wasnt meant to be pretty or complex, but showcase simple functionality and ability
+        wasn't meant to be pretty or complex, but showcase simple functionality and ability
         to use local storage to save data. This project shows that not only are complex pages
         or apps, like the next few, are within my abilities, but also simple ones, that are 
         useful, functional and open to creative design.`,
@@ -29,8 +35,8 @@ const projects = [
         description: `Utilizing an external API source, this project aims to showcase
         more diverse abilities and knowledge of coding, including more advanced JavaScript. 
         Grabbing individual Pokemon or datasets, extracting certain pieces of information, 
-        and displaying them in a readable format. Using, minification and a couple other 
-        external tools like promise methods, in this case, using Polyfill to ensure every 
+        and displaying them in a readable format. Using minification and a couple other 
+        external tools like promise methods, in this app's case, Polyfill to ensure every 
         platform gets the same experience. While the page doesn't look like much when run, 
         it demonstrates the ability to use external sources, manipulate data, and display 
         it in a readable format. After cloning the app from GitHub, try changing the number
@@ -41,11 +47,11 @@ const projects = [
     {
         id: 'project4',
         title: 'MindTheatre Database or Backend',
-        description: `MindTheatre is the name of the full site developed to showcase the largest
+        description: `MindTheatre is the name of the full stack site developed to showcase the largest
         project I've completed to date. This API was built using Node, Express, Heroku, MongoDB, 
         and MongoDB Atlas. Written primarily in JavaScript with a few pages of HTML and CSS, 
-        this API is secured by bcrypt, OAuth, and Passport. The API is already hosted on Heroku 
-        actively, so the next and most important project is constantly up and running.`,
+        this API is secured by bcrypt, OAuth, and Passport. The API is hosted on Heroku 
+        actively, so the next project is constantly up and running.`,
         activeLink: 'https://mind-theatre-api-dc69e2dcb161.herokuapp.com/',
         githubLink: 'https://GitHub.com/BalancedProtector/Movie_API'
     },
