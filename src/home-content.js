@@ -25,7 +25,7 @@ const HomeContent = () => {
                     </p>
 
                     <p>
-                        I am from North East Ohio, USA. I am ready to work locally,
+                        I am from North East Ohio. I am ready to work locally,
                         remote (home-based or locally hybrid), or relocate for the
                         right opportunity. I am open to full-time, part-time or
                         contract work. As well as internships or apprenticeships
