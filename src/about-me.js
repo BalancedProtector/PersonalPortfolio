@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <h1>Learn more about me</h1>
-            <h4>We can start with a list of my skills, I'm really quite a Jack of all Trades</h4>
+            <h4>Below you can see my various skill sets listed from most current</h4>
             <ul className="skills-list">
                 <li>Hard Skills:</li>
                 <ul className="hard-skill-list">
@@ -87,8 +87,8 @@ const AboutMe = () => {
             </ul>
             <h4>Now let's get into my background</h4>
             <p>
-                I am a career changer from North East Ohio, USA. I am eager to establish myself
-                in the web development industry through working locally, hybrid, or fully remote.
+                I am a career changer from North East Ohio. I am eager to start my career
+                as a web developer in the industry through working locally, hybrid, or fully remote.
                 I am willing to relocate for the right opportunity.
             </p>
             <p>
@@ -102,12 +102,14 @@ const AboutMe = () => {
                 effective problem-solving strategies. My brief time in the customer service
                 industry taught me to communicate in an effective manner for everyone to
                 understand. Though it may take a couple of iterations to achieve the desired
-                language or vocabulary, my goal is to make sure everyone is on the same page.
+                language or vocabulary, my goal through collaboration is to make sure everyone is
+                satisfied with the product.
             </p>
             <p>
-                I'm always looking to learn more skills and improve my current ones. So if there's a certain tech
-                stack you're looking for, I'm more than willing to learn it and expand my toolbelt. I'm always looking
-                for a fun challenge to keep me on my toes, but there's nothing wrong with using what works as well.
+                I'm always looking to learn more skills and improve my current ones. So if there's a specific tech
+                stack or specialization you're looking for, I'm willing to immerse myself into it and expand my
+                knowledge base. I'm always looking for a challenge to keep me current with industry standards and
+                emerging technologies.
             </p>
             <p>
                 I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is

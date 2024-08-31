@@ -22,11 +22,12 @@ const ProjectDetail = () => {
                     'This project is not a website nor is it hosted online'
                 )}
             </p>
+
             <p>
                 {project.githubLink ? (
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                        GitHub Repository
-                    </a>
+                    <p>View the Github repository <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                        here
+                    </a></p>
                 ) : (
                     'This project is not or no longer available on GitHub'
                 )}

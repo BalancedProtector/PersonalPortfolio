@@ -25,8 +25,8 @@ const projects = [
         description: `Very simple To Do List App created using HTML, JS, and CSS. The App
         wasn't meant to be pretty or complex, but showcase simple functionality and ability
         to use local storage to save data. This project shows that not only are complex pages
-        or apps, like the next few, are within my abilities, but also simple ones, that are 
-        useful, functional and open to creative design.`,
+        or apps like the ones to follow within my abilities, but also simple ones that are 
+        useful and functional / open to creative design.`,
         githubLink: 'https://github.com/BalancedProtector/To-Do-List-App'
     },
     {
