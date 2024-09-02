@@ -92,14 +92,11 @@ const AboutMe = () => {
                 I am willing to relocate for the right opportunity.
             </p>
             <p>
-                My current resume (linked below) may give pause
-                due to my time in the manual labor industry. Working on cars and trucks,
-                learning to work with my hands and think in a 4-dimensional way. Practicing
-                with tools, equipment, and machinery; I'm well-versed in creative applications
-                of tools and parts. You may ask what I mean by 4-dimensional thinking.
-                I believe in thinking not only in terms of what's physically here, but also
-                considering how long a solution will last is imperative to maintaining
-                effective problem-solving strategies. My brief time in the customer service
+                My current resume (linked below) will detail some of my experience in the manual labor industry.
+                Working on cars and trucks, learning to work with my hands and think in a 4-dimensional way.
+                By 4-dimensional thinking, I believe in thinking not only in terms of what's physically here,
+                but also considering how long a solution will last. This is imperative to maintaining
+                an effective problem-solving strategy. My brief time in the customer service
                 industry taught me to communicate in an effective manner for everyone to
                 understand. Though it may take a couple of iterations to achieve the desired
                 language or vocabulary, my goal through collaboration is to make sure everyone is
