@@ -37,8 +37,8 @@ const HomeContent = () => {
                     <p>
                         Please feel free to explore the site and learn more about me, my projects, and how you can
                         contact me. At the top of the page is a collapsible navigation bar with various sections. Opening the
-                        menu will open the Navigation bar containing the various pages in this site. Leaving the menu open
-                        will make the Navigation bar persistent and it will stay at the top of the page. Clicking
+                        menu will open the Navigation Bar containing the various pages in this site. Leaving the menu open
+                        will make the Navigation Bar persistent and it will stay at the top of the page. Clicking
                         "About Me" will give an organized list of skills and technologies I'm familiar with, as well as an overview of my
                         background and a little about me as a person. Clicking on "Projects" will take you to view all of my
                         projects in one place. Instead of clicking, try hovering to view a dropdown menu list of all my projects.
