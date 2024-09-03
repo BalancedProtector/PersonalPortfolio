@@ -5,6 +5,34 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <h1>Learn more about me</h1>
+            <h4>Let's get into my background and then below, take a look at the skills I've aquired</h4>
+            <p>
+                I am a career changer from North East Ohio. I am eager to start my career
+                as a web developer in the industry through working locally, hybrid, or fully remote.
+                I am willing to relocate for the right opportunity.
+            </p>
+            <p>
+                My current Indeed resume (linked below) will detail some of my experience in the manual labor industry.
+                Working on cars and trucks, learning to work with my hands and think in a 4-dimensional way.
+                By 4-dimensional thinking, I believe in thinking not only in terms of what's physically here,
+                but also considering how long a solution will last. This is imperative to maintaining
+                an effective problem-solving strategy. My brief time in the customer service
+                industry taught me to communicate in an effective manner for everyone to
+                understand. Though it may take a couple of iterations to achieve the desired
+                language or vocabulary, my goal through collaboration is to make sure everyone is
+                satisfied with the product.
+            </p>
+            <p>
+                I'm always looking to learn more skills and improve my current ones. So if there's a specific tech
+                stack or specialization you're looking for, I'm willing to immerse myself into it and expand my
+                knowledge base. I'm always looking for a challenge to keep me current with industry standards and
+                emerging technologies.
+            </p>
+            <p>
+                I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is
+                currently assisting in the re-development of my resume, LinkedIn profile, and portfolio.
+            </p>
+            <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
             <h4>Below you can see my various skill sets listed from most current</h4>
             <ul className="skills-list">
                 <li>Hard Skills:</li>
@@ -85,34 +113,6 @@ const AboutMe = () => {
                     <li>Time Management</li>
                 </ul>
             </ul>
-            <h4>Now let's get into my background</h4>
-            <p>
-                I am a career changer from North East Ohio. I am eager to start my career
-                as a web developer in the industry through working locally, hybrid, or fully remote.
-                I am willing to relocate for the right opportunity.
-            </p>
-            <p>
-                My current resume (linked below) will detail some of my experience in the manual labor industry.
-                Working on cars and trucks, learning to work with my hands and think in a 4-dimensional way.
-                By 4-dimensional thinking, I believe in thinking not only in terms of what's physically here,
-                but also considering how long a solution will last. This is imperative to maintaining
-                an effective problem-solving strategy. My brief time in the customer service
-                industry taught me to communicate in an effective manner for everyone to
-                understand. Though it may take a couple of iterations to achieve the desired
-                language or vocabulary, my goal through collaboration is to make sure everyone is
-                satisfied with the product.
-            </p>
-            <p>
-                I'm always looking to learn more skills and improve my current ones. So if there's a specific tech
-                stack or specialization you're looking for, I'm willing to immerse myself into it and expand my
-                knowledge base. I'm always looking for a challenge to keep me current with industry standards and
-                emerging technologies.
-            </p>
-            <p>
-                I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is
-                currently assisting in the re-development of my resume, LinkedIn profile, and portfolio.
-            </p>
-            <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
         </div>
     );
 };
