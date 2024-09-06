@@ -35,6 +35,22 @@ const AboutMe = () => {
             <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
             <h4>Below you can see my various skill sets listed from most current</h4>
             <ul className="skills-list">
+                <li>Soft Skills:</li>
+                <ul className="soft-skill-list">
+                    <li>Adaptability</li>
+                    <li>Attention to Detail</li>
+                    <li>Communication</li>
+                    <li>Creative Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Delegation</li>
+                    <li>Dependability</li>
+                    <li>Determination</li>
+                    <li>Empathy</li>
+                    <li>Organization</li>
+                    <li>Project Management</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                </ul>
                 <li>Hard Skills:</li>
                 <ul className="hard-skill-list">
                     <li>Coding</li>
@@ -95,22 +111,6 @@ const AboutMe = () => {
                     <li>Researching</li>
                     <li>Writing</li>
                     <li>Reading</li>
-                </ul>
-                <li>Soft Skills:</li>
-                <ul className="soft-skill-list">
-                    <li>Adaptability</li>
-                    <li>Attention to Detail</li>
-                    <li>Communication</li>
-                    <li>Creative Problem Solving</li>
-                    <li>Critical Thinking</li>
-                    <li>Delegation</li>
-                    <li>Dependability</li>
-                    <li>Determination</li>
-                    <li>Empathy</li>
-                    <li>Organization</li>
-                    <li>Project Management</li>
-                    <li>Teamwork</li>
-                    <li>Time Management</li>
                 </ul>
             </ul>
         </div>
