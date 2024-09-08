@@ -34,193 +34,178 @@ const AboutMe = () => {
             </p>
             <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
             <h4>Below you can see my various skill sets listed from most current</h4>
+            <h2>Soft Skills:</h2>
             <div className="skills-list-container">
-                <h2>Soft Skills:</h2>
-                <div className="skills-list-container">
-                    <ul className="soft-skill-list">
-                        <li>Adaptability</li>
-                        <li>Attention to Detail</li>
-                        <li>Analytical Thinking</li>
-                        <li>Communication</li>
-                        <li>Creative Problem Solving</li>
-                        <li>Critical Thinking</li>
-                        <li>Delegation</li>
-                        <li>Dependability</li>
-                        <li>Determination</li>
-                        <li>Empathy</li>
-                        <li>Organization</li>
-                        <li>Project Management</li>
-                        <li>Teamwork</li>
-                        <li>Time Management</li>
-                        {/* soft-skill-list*/}
+                <ul className="soft-skill-list">
+                    <li>Adaptability</li>
+                    <li>Attention to Detail</li>
+                    <li>Analytical Thinking</li>
+                    <li>Communication</li>
+                    <li>Creative Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Delegation</li>
+                    <li>Dependability</li>
+                    <li>Determination</li>
+                    <li>Empathy</li>
+                    <li>Organization</li>
+                    <li>Project Management</li>
+                    <li>Researching</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                    {/* soft-skill-list*/}
+                </ul>
+            </div>
+
+            <h2>Hard Skills:</h2>
+            <div className="skills-list-container hard-skills-container">
+                <div className="hard-skill-category">
+                    <h3>Coding Skills</h3>
+                    <ul className="coding-skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>GitHub</li>
+                        <li>Git</li>
+                        <li>Aglie Enviornment</li>
+                        <li>Scrum Enviornment</li>
+                        <li>User Feedback and Updates</li>
+                        <h4>Wireframing skills: </h4>
+                        <ul className="wireframing-skills">
+                            <li>Client Communication</li>
+                            <li>Physical Drawing</li>
+                            <li>Prototyping</li>
+                        </ul>
                     </ul>
                 </div>
+                <div className="hard-skill-category">
+                    <h3>Mig Welding</h3>
+                    <ul className="welding-skills">
+                        <li>Steel</li>
+                        <li>Galvanized Steel</li>
+                        <li>Aluminum</li>
+                        <li>Stainless Steel</li>
+                        <h4>Positions: </h4>
+                        <ul className="welding-positions">
+                            <li>Flat</li>
+                            <li>Verticle</li>
+                            <li>Horizontal</li>
+                            <li>Round Pipe</li>
+                        </ul>
 
-                <div className="skills-list-container hard-skills-container">
-                    <h2>Hard Skills:</h2>
-                    <div className="hard-skill-category">
-                        <h3>Coding Skills</h3>
-                        <ul className="coding-skills">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>SCSS</li>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>C++</li>
-                            <li>React</li>
-                            <li>Bootstrap</li>
-                            <li>GitHub</li>
-                            <li>Git</li>
-                            <li>Aglie Enviornment</li>
-                            <li>Scrum Enviornment</li>
-                            <li>User Feedback and Updates</li>
-                            <h4>Wireframing skills</h4>
-                            <ul className="wireframing-skills">
-                                <li>Client Communication</li>
-                                <li>Physical Drawing</li>
-                                <li>Prototyping</li>
-                            </ul>
-                        </ul>
-                    </div>
-                    <div className="hard-skill-category">
-                        <h3>Mig Welding</h3>
-                        <ul className="welding-skills">
-                            <li>Steel</li>
-                            <li>Galvanized Steel</li>
-                            <ul>
-                                <li>Plates</li>
-                                <li>Pipes</li>
-                            </ul>
-                            <li>Aluminum</li>
-                            <ul>
-                                <li>Plates</li>
-                                <li>Angled Plates</li>
-                            </ul>
-                            <li>Stainless Steel</li>
-                            <li>
-                                Positions
-                                <ul>
-                                    <li>Flat</li>
-                                    <li>Verticle</li>
-                                    <li>Horizontal</li>
-                                    <li>Round Pipe</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="hard-skill-category">
-                        <h3>Vehicle Maintenance</h3>
-                        <ul className="vehicle-skills">
-                            <li>
-                                Engine Maintenance and Repair
-                                <ul>
-                                    <li>Detailed Inspections</li>
-                                    <li>Oil Changes</li>
-                                    <li>Filter Changes</li>
-                                    <li>Serpentine Belt Replacement</li>
-                                    <li>Stretch Belt Replacement</li>
-                                    <li>Timing Belt / Chain / Gear Replacement</li>
-                                    <li>Flywheel Replacement</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Transmission Maintenance and Repair
-                                <ul>
-                                    <li>Fluid Exchanges</li>
-                                    <li>Filter Changes</li>
-                                    <li>Manual Transmission</li>
-                                    <ul>
-                                        <li>Clutch Pedal Diagnostic</li>
-                                        <li>Clutch Replacement</li>
-                                        <li>Shift Assembly Repair</li>
-                                    </ul>
-                                    <li>Automatic Transmission</li>
-                                    <ul>
-                                        <li>Torque Converter Repair</li>
-                                        <li>Valve Body Repair</li>
-                                        <li>Transmission Cooler Repair</li>
-                                    </ul>
-                                </ul>
-                            </li>
-                            <li>
-                                Brake Systems
-                                <ul>
-                                    <li>Brake Pads</li>
-                                    <li>Rotors</li>
-                                    <li>Calipers</li>
-                                </ul>
-                                <ul>
-                                    <li>Drums</li>
-                                    <li>Shoes</li>
-                                    <li>Wheel Cylinders</li>
-                                </ul>
-                                <ul>
-                                    <li>Master Cylinder</li>
-                                    <li>Brake Lines</li>
-                                    <li>Brake Fluid</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Suspension Diagnosis and Repair
-                                <ul>
-                                    <li>Shocks</li>
-                                    <li>Struts</li>
-                                    <li>Control Arms</li>
-                                    <li>Ball Joints</li>
-                                    <li>Wheel Bearings</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Steering Diagnosis and Repair
-                                <ul>
-                                    <li>Power Steering</li>
-                                    <li>Steering Rack</li>
-                                    <li>Steering Column</li>
-                                    <li>Steering Wheel</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Electrical Diagnosis and Repair
-                                <ul>
-                                    <li>Alternator</li>
-                                    <li>Starter</li>
-                                    <li>Battery</li>
-                                    <li>Wiring</li>
-                                    <li>Grounding</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="hard-skill-category">
-                        <h3>Cooking Skills</h3>
-                        <ul className="cooking-skills">
-                            <li>Prepping</li>
-                            <li>Trimming Meat</li>
-                            <li>Fileting Meat</li>
-                            <li>Knifework</li>
-                            <li>Marinating</li>
-                            <li>Grilling</li>
-                            <li>Frying</li>
-                            <li>Deep Frying</li>
-                            <li>Sauces</li>
-                            <li>Stocks + Broths</li>
-                            <li>Spice Blends</li>
-                            <li>Cooking to Order</li>
-                            <li>Plating</li>
-                        </ul>
-                    </div>
-                    <div className="hard-skill-category">
-                        <h3>Other Skills</h3>
-                        <li>Reading</li>
-                        <li>Researching</li>
-                        <li>Writing</li>
-                    </div>
-
-
-                    {/* hard-skill-list*/}
+                    </ul>
                 </div>
-                {/* skills-list-container*/}
+                <div className="hard-skill-category">
+                    <h3>Vehicle Maintenance</h3>
+                    <ul className="vehicle-skills">
+                        <h4>Engine Maintenance and Repair: </h4>
+                        <ul>
+                            <li>Detailed and Thorough Inspections</li>
+                            <li>Oil Changes</li>
+                            <li>Filter Changes</li>
+                            <li>Serpentine Belt Replacement</li>
+                            <li>Stretch Belt Replacement</li>
+                            <li>Timing Belt / Chain / Gear Replacement</li>
+                            <li>Flywheel Replacement</li>
+                        </ul>
+
+                        <h4>Transmission Maintenance and Repair: </h4>
+                        <ul>
+                            <li>Fluid Exchanges</li>
+                            <li>Filter Changes</li>
+                            <h4>Manual Transmission: </h4>
+                            <ul>
+                                <li>Clutch Pedal Diagnostic</li>
+                                <li>Clutch Replacement</li>
+                                <li>Shift Assembly Repair</li>
+                            </ul>
+                            <h4>Automatic Transmission: </h4>
+                            <ul>
+                                <li>Torque Converter Repair</li>
+                                <li>Valve Body Repair</li>
+                                <li>Transmission Cooler Repair</li>
+                            </ul>
+                        </ul>
+
+                        <h4>Brake Systems: </h4>
+                        <ul>
+                            <li>Brake Pads</li>
+                            <li>Rotors</li>
+                            <li>Calipers</li>
+                        </ul>
+                        <ul>
+                            <li>Drums</li>
+                            <li>Shoes</li>
+                            <li>Wheel Cylinders</li>
+                        </ul>
+                        <ul>
+                            <li>Master Cylinder</li>
+                            <li>Brake Lines</li>
+                            <li>Brake Fluid</li>
+                        </ul>
+
+                        <h4>Suspension Diagnosis and Repair: </h4>
+                        <ul>
+                            <li>Shocks</li>
+                            <li>Struts</li>
+                            <li>Control Arms</li>
+                            <li>Ball Joints</li>
+                            <li>Wheel Bearings</li>
+                        </ul>
+
+                        <h4>Steering Diagnosis and Repair: </h4>
+                        <ul>
+                            <li>Power Steering</li>
+                            <li>Steering Rack</li>
+                            <li>Steering Column</li>
+                            <li>Steering Wheel</li>
+                        </ul>
+
+                        <h4>Electrical Diagnosis and Repair: </h4>
+                        <ul>
+                            <li>Alternator</li>
+                            <li>Starter</li>
+                            <li>Battery</li>
+                            <li>Wiring</li>
+                            <li>Grounding</li>
+                        </ul>
+
+                        <h4>HVAC: </h4>
+                        <ul>
+                            <li>Heater Core Diagnosis</li>
+                            <li>Thermostat Replacement</li>
+                            <li>AC Compressor Diagnosis</li>
+                            <li>AC Condenser Replacement</li>
+                            <li>AC Recovery and Refresh</li>
+                            <li>Leak Detection</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div className="hard-skill-category">
+                    <h3>Cooking Skills</h3>
+                    <ul className="cooking-skills">
+                        <li>Prepping</li>
+                        <li>Trimming Meat</li>
+                        <li>Fileting Meat</li>
+                        <li>Knifework</li>
+                        <li>Marinating</li>
+                        <li>Grilling</li>
+                        <li>Frying</li>
+                        <li>Deep Frying</li>
+                        <li>Sauces</li>
+                        <li>Stocks + Broths</li>
+                        <li>Spice Blends</li>
+                        <li>Cooking to Order</li>
+                        <li>Plating</li>
+                    </ul>
+                </div>
+                {/* hard-skill-list*/}
             </div>
+            {/* skills-list-container*/}
             {/* about-me*/}
         </div>
     );
