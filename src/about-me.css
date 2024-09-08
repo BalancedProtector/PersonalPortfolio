@@ -5,7 +5,7 @@
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 800px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,13 +24,18 @@
     margin-bottom: 10px;
     text-align: center;
 }
+.about-me h3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* Paragraphs */
 .about-me p {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 /* List */
@@ -41,40 +46,56 @@
 
 .about-me ul li {
     background: #e9ecef; /* Slightly deeper grey */
-    margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
-    text-align: left;
+    margin-bottom: 10px;
+
 }
 
 /* Skill categories */
-.hard-skill-list {
+.skills-list-container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.coding-skills li {
-    background-color: #8cafdd; /* Deeper light blue */
-    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 
-.wireframing-skills li {
-    background-color: #cff4fc; /* Light blue */
+.skills-list-container ul {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    flex: 1 1 200px; /*Grow, shrink and basis for flex items respectively*/
+    max-width: 300px; /*limits flex item width */
 }
 
-.welding-skills li {
-    background-color: #a9a9a9; /* Slightly darker grey */
-}
-.soft-skill-list {
+.hard-skills-list-container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.soft-skill-list li {
-    background-color: #fff3cd; /* Light yellow */
-    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 
+.hard-skills-list-container ul {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    flex: 1 1 200px; /*Grow, shrink and basis for flex items respectively*/
+    max-width: 300px; /*limits flex item width */
+}
+
+.hard-skill-category {
+    flex: 1 1 200px;
+    max-width: 300px;
+}
+
+.cooking-skills{
+    flex: 1 1 200px;
+    max-width: 300px;
+}
 /* Nested lists */
 .about-me ul ul {
     margin-left: 20px;
@@ -85,26 +106,61 @@
 }
 
 /* Responsive design adjustments */
+@media (max-width: 1024px) {
+    .about-me {
+        max-width: 900px;
+    }
+}
+
 @media (max-width: 768px) {
+    
     .about-me {
         padding: 15px;
+        max-width: 600px;
     }
+
     .about-me h1 {
         font-size: 1.5em;
     }
+
     .about-me h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
+    }
+
+    .skills-list-container {
+        justify-content: center;
+    }
+
+    .hard-skills-list-container {
+        justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
     .about-me {
         padding: 10px;
+        max-width: 100%;
     }
+
     .about-me h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
+
     .about-me h2 {
-        font-size: 1em;
+        font-size: 1.5em;
+    }
+
+    .skills-list-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hard-skills-list-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cooking-skills {
+        min-width: 100%;
     }
 }
