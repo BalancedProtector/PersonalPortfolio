@@ -7,34 +7,27 @@ const AboutMe = () => {
             <h1>Learn more about me</h1>
             <h4>Let's get into my background and then below, take a look at the skills I've aquired</h4>
             <p>
-                I am a career changer from North East Ohio. I am eager to start my career
-                as a web developer in the industry through working locally, hybrid, or fully remote.
-                I am willing to relocate for the right opportunity.
+                I am a career changer from Northeast Ohio, with a background in manual labor and a passion for technical problem-solving.
+                Weather it's diagnosing complex electrical systems or performing precision mechanical maintenance, I focus on doing the
+                job right the first time.
             </p>
             <p>
-                My current Indeed resume (linked below) will detail some of my experience in the manual labor industry.
-                Working on cars and trucks, learning to work with my hands and think in a 4-dimensional way.
-                By 4-dimensional thinking, I believe in thinking not only in terms of what's physically here,
-                but also considering how long a solution will last. This is imperative to maintaining
-                an effective problem-solving strategy. My brief time in the customer service
-                industry taught me to communicate in an effective manner for everyone to
-                understand. Though it may take a couple of iterations to achieve the desired
-                language or vocabulary, my goal through collaboration is to make sure everyone is
-                satisfied with the product.
+                My Experience spans from automitive and truck repair to high cycle garage doors and motorized operators. I am a G1 ASE certified technician
+                and hold my OSHA 10 and EPA 609 cards. Weather I'm using an acetylene torch, hyrdraulic tube bender, or advanced diagnostic software, I
+                prioritize safety and efficiency. I don't just swap parts; I diagnose the underlying systems to ensure long-term performance.
             </p>
+            <h4>Why the hybrid background?</h4>
             <p>
-                I'm always looking to learn more skills and improve my current ones. So if there's a specific tech
-                stack or specialization you're looking for, I'm willing to immerse myself into it and expand my
-                knowledge base. I'm always looking for a challenge to keep me current with industry standards and
-                emerging technologies.
-            </p>
-            <p>
-                I'm currently enrolled in CareerFoundry's Full Stack Web Development Course, which is
-                currently assisting in the re-development of my resume, LinkedIn profile, and portfolio.
+                Having spent time learning to code, I have a unique perspective on the "brains" and logic behind modern industrial machinery. Hoever, I've found
+                my greatest value is in the physical / mechanical space - working with my hands to maintain and test the systems that keep operations running.
+                I'm looking for a role that rewards a high level of technical skill and a commitment to industry standards.
+
             </p>
             <a href="https://profile.indeed.com/p/stevenm-aqtoghr">Check me out on Indeed!</a>
-            <h4>Below you can see my various skill sets listed from most current</h4>
-            <h2>Soft Skills:</h2>
+
+            <h4>Below you can see my various skill sets and certifications listed from most transferrable to specialized skills</h4>
+
+            <h2>Soft Skills and Certifications</h2>
             <div className="skills-list-container">
                 <ul className="soft-skill-list">
                     <li>Adaptability</li>
@@ -54,41 +47,42 @@ const AboutMe = () => {
                     <li>Time Management</li>
                     {/* soft-skill-list*/}
                 </ul>
-            </div>
 
+                <ul className="certifications-list">
+                    <ul>
+                        <li style={{ fontWeight: 'bold', borderBottom: '1px solid #ccc', marginBottom: '5px', color: '#333' }}>
+                            OSHA 10 - Issued 5/15/2025
+                        </li>
+                        <h4>ASE</h4>
+                        <ul>
+                            <li>G1 - General Meintenence </li>
+                            <li>EPA - 609 </li>
+                            <li>A1 - Entry </li>
+                            <li>A2 - Entry </li>
+                            <li>A3 - Entry </li>
+                            <li>A4 - Entry </li>
+                            <li>A5 - Entry </li>
+                            <li>A6 - Entry </li>
+                            <li>A7 - Entry </li>
+                            <li>A8 - Entry </li>
+                        </ul>
+                    </ul>
+                    {/* certifications*/}
+                </ul>
+            </div>
             <h2>Hard Skills:</h2>
             <div className="skills-list-container hard-skills-container">
                 <div className="hard-skill-category">
-                    <h3>Coding Skills</h3>
-                    <ul className="coding-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SCSS</li>
-                        <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>C++</li>
-                        <li>React</li>
-                        <li>Bootstrap</li>
-                        <li>GitHub</li>
-                        <li>Git</li>
-                        <li>Aglie Enviornment</li>
-                        <li>Scrum Enviornment</li>
-                        <li>User Feedback and Updates</li>
-                        <h4>Wireframing skills: </h4>
-                        <ul className="wireframing-skills">
-                            <li>Client Communication</li>
-                            <li>Physical Drawing</li>
-                            <li>Prototyping</li>
-                        </ul>
-                    </ul>
-                </div>
-                <div className="hard-skill-category">
                     <h3>Mig Welding</h3>
                     <ul className="welding-skills">
-                        <li>Steel</li>
-                        <li>Galvanized Steel</li>
-                        <li>Aluminum</li>
-                        <li>Stainless Steel</li>
+                        <h4>Metals</h4>
+                        <ul>
+                            <li>Steel</li>
+                            <li>Galvanized Steel</li>
+                            <li>Aluminum</li>
+                            <li>Stainless Steel</li>
+                        </ul>
+
                         <h4>Positions: </h4>
                         <ul className="welding-positions">
                             <li>Flat</li>
@@ -102,6 +96,24 @@ const AboutMe = () => {
                 <div className="hard-skill-category">
                     <h3>Vehicle Maintenance</h3>
                     <ul className="vehicle-skills">
+                        <h4>Electrical Diagnosis and Repair: </h4>
+                        <ul>
+                            <li>Alternator</li>
+                            <li>Starter</li>
+                            <li>Battery</li>
+                            <li>Wiring</li>
+                            <li>Grounding</li>
+                        </ul>
+
+                        <h4>HVAC: </h4>
+                        <ul>
+                            <li>Heater Core Diagnosis</li>
+                            <li>Thermostat Replacement</li>
+                            <li>AC Compressor Diagnosis</li>
+                            <li>AC Condenser Replacement</li>
+                            <li>AC Recovery and Refresh</li>
+                            <li>Leak Detection</li>
+                        </ul>
                         <h4>Engine Maintenance and Repair: </h4>
                         <ul>
                             <li>Detailed and Thorough Inspections</li>
@@ -164,24 +176,33 @@ const AboutMe = () => {
                             <li>Steering Column</li>
                             <li>Steering Wheel</li>
                         </ul>
-
-                        <h4>Electrical Diagnosis and Repair: </h4>
+                    </ul>
+                </div>
+                <div className="hard-skill-category">
+                    <h3>Coding Skills</h3>
+                    <ul className="coding-skills">
+                        <h4>Languages</h4>
                         <ul>
-                            <li>Alternator</li>
-                            <li>Starter</li>
-                            <li>Battery</li>
-                            <li>Wiring</li>
-                            <li>Grounding</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SCSS</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>GitHub</li>
+                            <li>Git</li>
                         </ul>
 
-                        <h4>HVAC: </h4>
-                        <ul>
-                            <li>Heater Core Diagnosis</li>
-                            <li>Thermostat Replacement</li>
-                            <li>AC Compressor Diagnosis</li>
-                            <li>AC Condenser Replacement</li>
-                            <li>AC Recovery and Refresh</li>
-                            <li>Leak Detection</li>
+                        <li>Aglie Enviornment</li>
+                        <li>Scrum Enviornment</li>
+                        <li>User Feedback and Updates</li>
+                        <h4>Wireframing skills: </h4>
+                        <ul className="wireframing-skills">
+                            <li>Client Communication</li>
+                            <li>Physical Drawing</li>
+                            <li>Prototyping</li>
                         </ul>
                     </ul>
                 </div>
